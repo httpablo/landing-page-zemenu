@@ -250,7 +250,7 @@ img {
   margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .sobre h1,
   .sobre p {
     text-align: center;
@@ -266,7 +266,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .sobre h1,
   .sobre p {
     text-align: center;
@@ -274,13 +274,13 @@ img {
   }
 
   .sobre h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-top: 30px;
     margin-bottom: 20px;
   }
 
   .sobre p {
-    font-size: 0.9rem;
+    font-size: 1.15rem;
     margin-bottom: 30px;
   }
 }
@@ -294,25 +294,25 @@ img {
 }
 
 .vantagens {
-  padding: 80px 20px; /* Reduzindo o padding lateral para telas menores */
-  text-align: center; /* Centralizando o conteúdo */
+  padding: 80px 20px;
+  text-align: center;
 }
 
 .vantagens h1 {
   font: 600 3.8rem/1.1 "Poppins", sans-serif;
-  margin-bottom: 40px; /* Reduzindo a margem inferior */
+  margin-bottom: 40px;
 }
 
 .vantagens-lista {
   display: flex;
-  flex-wrap: wrap; /* Permitindo que os itens quebrem para uma nova linha */
-  justify-content: space-around; /* Distribuindo os itens ao redor */
-  gap: 20px; /* Espaçamento entre os itens */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
 }
 
 .vantagens-lista li {
-  flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
-  max-width: 300px; /* Largura máxima do item */
+  flex: 1 1 300px;
+  max-width: 300px;
   text-align: center;
   padding: 20px;
 }
@@ -439,7 +439,7 @@ img {
     margin-bottom: 40px;
   }
   .form button {
-    padding: 10px 15px;
+    padding: 18px 25px;
   }
 }
 
