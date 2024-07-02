@@ -18,10 +18,10 @@
   <header>
     <div class="header-bg">
       <div class="header">
-        <img src="./img/logo-techfit.svg" width="67" height="72" alt="TechFit">
+        <img src="./img/logo-techfit.svg" width="55" height="50" alt="TechFit">
         <nav class="nav-header">
           <a href="/">Já sou cliente</a>
-          <a href="/">TESTE GRÁTIS</a>
+          <button class="botao">TESTE GRÁTIS</button>
         </nav>
       </div>
     </div>
@@ -29,12 +29,10 @@
 
   <main class="intro-bg">
     <div class="intro">
-      <div>
-        <img src="./img/intro.jpg" width="458" height="800" alt="Academia">
-      </div>
+      <img src="./img/intro.jpg" width="500" height="700" alt="Academia">
       <div class="intro-conteudo">
-        <h1>O <span>futuro</span> do seu negócio fitness começa aqui.</h1>
-        <p>A TechFit Academy visa fazer o gerenciamento e disponibilizar aos usuários acesso aos serviços online da academia.</p>
+        <h1>O <span class="detalhe">futuro</span> do seu <br>negócio fitness <br>começa aqui.</h1>
+        <p>A TechFit Academy visa fazer o gerenciamento e <br>disponibilizar aos usuários acesso aos serviços <br>online da academia.</p>
       </div>
     </div>
   </main>
@@ -42,7 +40,7 @@
   <article class="sobre-bg">
     <div class="sobre">
       <h1>Sobre nós.</h1>
-      <p>Na TechFit Academy, nossa missão é transformar a experiência da sua academia com inovação e personalização. Nós nos dedicamos a ajudar você a atingir suas metas com soluções tecnológicas acessíveis. Nossa plataforma oferece o gerenciamento de avaliações físicas detalhadas, treinos sob medida e informações aos usuários.</p>
+      <p>Na TechFit Academy, nossa missão é transformar a experiência da sua academia <br>com inovação e personalização. Nós nos dedicamos a ajudar você a atingir suas <br>metas com soluções tecnológicas acessíveis. Nossa plataforma oferece o <br>gerenciamento de avaliações físicas detalhadas, treinos sob medida e informações <br>aos usuários.</p>
     </div>
   </article>
 
@@ -50,14 +48,14 @@
     <div class="vantagens">
       <h1>Nossas vantagens.</h1>
       <div>
-        <ul>
+        <ul class="vantagens-lista">
           <li>
-            <img src="./img/gym.svg" width="40" height="25" alt="Ícone de gym">
+            <img src="./img/gym.svg" width="50" height="25" alt="Ícone">
             <h3>Ficha de treino</h3>
             <p>Agilize o registro da avaliação física, criação dos treinos e o acompanhamento da evolução dos alunos.</p>
           </li>
           <li>
-            <img src="./img/avaliacao.svg" width="28" height="30" alt="Ícone de avaliação">
+            <img src="./img/avaliacao.svg" width="30" height="30" alt="Ícone de avaliação">
             <h3>Ficha de avaliação</h3>
             <p>Agilize o registro da avaliação física, criação dos treinos e o acompanhamento da evolução dos alunos.</p>
           </li>
@@ -71,23 +69,29 @@
     </div>
   </article>
 
-  <div class="contato-container">
+  <div class="contato">
     <section class="contato-form">
-      <form class="form" action="/">
-        <div>
-          <label for="nome">Nome</label>
-          <input type="text" id="nome">
+      <h1>Fale conosco.</h1>
+      <div class="container">
+        <form class="form" action="/">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="text" id="email">
+          </div>
+          <div>
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="5" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+          </div>
+          <button class="botao1">ENVIAR MENSAGEM</button>
+        </form>
+        <div class="image">
+          <img src="./img/maps.jpg" width="550" height="372" alt="Mapa">
         </div>
-        <div>
-          <label for="email">Email</label>
-          <input type="text" id="email">
-        </div>
-        <div>
-          <label for="mensagem">Mensagem</label>
-          <textarea rows="5" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
-        </div>
-        <button>Enviar Mensagem</button>
-      </form>
+      </div>
     </section>
   </div>
 
@@ -102,13 +106,12 @@
         </ul>
       </div>
       <div class="redes">
-        <a href="/"><img src="./img/youtube.svg" alt="Youtube"></a>
-        <a href="/"><img src="./img/instagram.svg" alt="Instagram"></a>
-        <a href="/"><img src="./img/whatsapp.svg" alt="Whatsapp"></a>
+        <a href="/"><img src="./img/youtube.svg" width="45" height="30" alt="Youtube"></a>
+        <a href="/"><img src="./img/instagram.svg" width="40" height="40" alt="Instagram"></a>
+        <a href="/"><img src="./img/whatsapp.svg" width="40" height="40" alt="Whatsapp"></a>
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>
